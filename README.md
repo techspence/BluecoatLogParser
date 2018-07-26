@@ -11,7 +11,7 @@ Destination   - This is the URL that's being searched for.
 ```
 
 ## Credits
-I really liked the way @dafthack created the README for MailSniper, so I used that as somewhat of a boilerplate to create my README. Thanks!
+I really liked the way [@dafthack](https://github.com/dafthack) created the README for [MailSniper](https://github.com/dafthack/mailsniper), so I used that as somewhat of a boilerplate to create my README. Thanks!
 
 ## Example
 ```
