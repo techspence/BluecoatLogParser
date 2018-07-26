@@ -14,7 +14,7 @@ Destination   - This is the URL that's being searched for.
 I really liked the way [@dafthack](https://github.com/dafthack) created the README for [MailSniper](https://github.com/dafthack/mailsniper), so I used that as somewhat of a boilerplate to create my README. Thanks!
 
 ## Example
-```
+```PowerShell
 Get-BluecoatLogInfo -LogPath "\\testserver1\d$\LogStore\" -Days 1 -Destination "github.com"
 ```
 
