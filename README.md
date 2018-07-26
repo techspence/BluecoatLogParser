@@ -3,18 +3,21 @@ The Bluecoat Log Parser is a tool that will parse a given set of Bluecoat log fi
 
 The reason this tool exists is to be able to correlate Bluecoat Proxy logs with other network monitoring tools.
 
-# Functions
-LogPath			- This is the directory where your Bluecoat logs are located.
-Days			- This is the number of days of log files you want to search.
-Destination		- This is the URL that's being searched for.
+## Functions
+```
+LogPath       - This is the directory where your Bluecoat logs are located.
+Day           - This is the number of days of log files you want to search.
+Destination   - This is the URL that's being searched for.
+```
 
-
-# Credits
+## Credits
 I really liked the way @dafthack created the README for MailSniper, so I used that as somewhat of a boilerplate to create my README. Thanks!
 
-# Example
+## Example
+```
 Get-BluecoatLogInfo -LogPath "\\testserver1\d$\LogStore\" -Days 1 -Destination "github.com"
+```
 
-# Future Enhancements
+## Future Enhancements
 1. Parse the log file using regex instead of position
 2. Create a script to auto-generate a test log file, then run the tool to test 
