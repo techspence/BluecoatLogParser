@@ -1,7 +1,6 @@
-﻿function Get-BluecoatLogInfo {
-<#
+﻿<#
   .SYNOPSIS
-    This module will parse a given set of Bluecoat log files for a user entered URL (known as a destination in this module) and given a number of days to search, will parse the log files looking for that destination. It will then display IP, Date, Time, User and Computer.
+	This module will parse a given set of Bluecoat log files for a user entered URL (known as a destination in this module) and given a number of days to search, will parse the log files looking for that destination. It will then display IP, Date, Time, User and Computer.
 
     Bluecoat Log Parser: Get-BluecoatLogInfo
     Author: Spencer Alessi (@techspence)
@@ -21,8 +20,13 @@
   
   .PARAMETER Destination
     This is the URL that's being searched for.
-	
- #>    
+  
+  .EXAMPLE
+	Get-BluecoatLogInfo -LogPath "\\testserver1\d$\LogStore\" -Days 1 -Destination "github.com"
+ #>
+ 
+function Get-BluecoatLogInfo {
+
     
   param 
   (
